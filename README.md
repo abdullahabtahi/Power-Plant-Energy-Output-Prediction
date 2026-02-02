@@ -7,6 +7,8 @@ Predicting hourly net energy output of a Combined Cycle Power Plant using time-a
 This project builds a machine learning model to forecast hourly net electrical energy output (PE, MW) for a Combined Cycle Power Plant using ambient conditions (AT, V, AP, RH). [page:4]
 The goal is to support grid-commitment and operations planning by providing accurate, time-aware predictions that avoid information leakage. [page:4]
 
+![Power Plant Energy Prediction Infographic](reports/Power%20Plant%20Energy%20Prediction%20Infographic.png)
+
 ## Dataset
 
 - Source: Combined Cycle Power Plant (CCPP) dataset (UCI / Duke specialization). [page:4]  
@@ -34,6 +36,8 @@ On the held-out test set, the Random Forest model achieves:
 - MAE ≈ 2.30 MW (typical hourly error). [page:4]
 
 Compared with a Linear Regression baseline, the Random Forest reduces validation RMSE by about 24%. [page:4]
+
+![Executive Dashboard](reports/Executive%20Dashboard.png)
 
 ## How to run
 
