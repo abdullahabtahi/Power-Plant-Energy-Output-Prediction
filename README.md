@@ -2,6 +2,8 @@
 
 Predicting hourly net energy output of a Combined Cycle Power Plant using time-aware splits and tree-based ensemble models. 
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/14Nls7oSpJbg8mWsLRCRcfAyFDZD73-zP?usp=sharing)
+
 ## Overview
 
 This project builds a machine learning model to forecast hourly net electrical energy output (PE, MW) for a Combined Cycle Power Plant using ambient conditions (AT, V, AP, RH). [page:4]
@@ -41,12 +43,20 @@ Compared with a Linear Regression baseline, the Random Forest reduces validation
 
 ## How to run
 
-1. Clone this repository.  
+1. Clone this repository:
+
+   git clone https://github.com/abdullahabtahi/Power-Plant-Energy-Output-Prediction.git
+   cd Power-Plant-Energy-Output-Prediction
+
 2. Create a virtual environment and install dependencies:
 
-   ```bash
    pip install -r requirements.txt
 
+3. Download and place the CCPP dataset as CCPP_Data_(Cleaned).csv in the project root or data/
 
+Open notebooks/power_plant_energy_output.ipynb in Jupyter or Colab and run all cells in order.
 
-[def]: reports/consultant_dashboard.png
+References
+Pınar Tüfekci, “Prediction of full load electrical power output of a base load operated combined cycle power plant using machine learning methods,” International Journal of Electrical Power & Energy Systems, Volume 60, September 2014, Pages 126–140.
+
+Heysem Kaya, Pınar Tüfekci, Sadık Fikret Gürgen, “Local and Global Learning Methods for Predicting Power of a Combined Gas & Steam Turbine,” Proceedings of the International Conference on Emerging Trends in Computer and Electronics Engineering (ICETCEE 2012), pp. 13–18, Dubai, 2012.
