@@ -3,3 +3,47 @@
 *.gsheet
 *.gslides
 
+# macOS
+.DS_Store
+
+# Google Drive / Google Docs shortcut files
+*.gdoc
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments and env files
+venv/
+env/
+.venv/
+.env
+.env.*
+
+# Editor/config folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Misc
+Thumbs.db
+*.log
+*.tmp
+*.swp
